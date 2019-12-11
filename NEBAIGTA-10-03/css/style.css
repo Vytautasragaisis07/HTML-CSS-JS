@@ -1,0 +1,37 @@
+*{
+	background-color: #111;
+	text-align: center;
+
+}
+.container {
+	background-color: #fff;
+	margin: 5%;
+	display: flex;
+ 	flex-flow: row wrap;
+ 	justify-content:center;
+}
+img {
+	display: table-cell;
+	flex-direction: row;
+	justify-content: center;
+
+	margin: 20px;
+}
+.header{
+	display: flex;
+	background-color: #fff;
+}
+.header select, label, input{
+	display: inline-block;
+	background-color: #fff;
+	margin: 5% 0% 5% 0%;
+}
+form{
+	flex-basis:50%;
+	display: inline-block;
+	background-color: #fff;
+	margin: 5% 0% 5% 0%;
+
+}
+	
+.main { flex: 2 0px; }

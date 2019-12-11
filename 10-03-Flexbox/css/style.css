@@ -1,0 +1,43 @@
+*{  
+    margin: 0 auto;
+    padding: 0;
+   
+
+}
+.container{
+
+    flex-wrap:wrap;
+    justify-content:center;
+	display:flex;
+	width: 106%;
+	height: 250%;
+	margin: 10px;
+	background-color:;
+}
+
+.wrapper{
+	width: 90%;
+}
+
+img{
+    margin: 5px;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #E7E0E0;
+
+}
+.search{
+
+	flex-basis:100%;
+   
+}
+    	
+
+header{
+    display: flex;
+	width: 100%;
+	margin: 10px;
+
+
+
+}

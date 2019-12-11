@@ -1,0 +1,74 @@
+/*base*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+	height:100%;
+}
+body{
+	margin:0 auto;
+	padding:0;
+}
+/*Heading*/
+h1,h2,h3,h4{
+	text-align: center;
+}
+
+/*Links*/
+a:link{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Paragraph*/
+main{
+	float: left;
+	width: 70%;
+	background-color: #5504
+}
+/*List*/
+li{
+	text-align: center;
+	display: inline-block;
+	height: 10;
+	margin:20px auto;
+}
+/*Header*/
+header{
+	background-color: #4777;
+	height: 100px;
+}
+aside{
+	float: right;
+	width: 30%;
+	background-color: #270
+}
+/*Layout*/
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav{
+	width: 100%;
+	position: fixed;
+	background-color: #1115;
+	height: 10;
+	margin:20px auto;
+	text-align: center;
+}
+/*Footer*/
+footer{
+	
+}
+
+/*Article*/
+article{
+	background-color: #67423;
+	height: 10;
+	margin:20px auto;
+	text-align: center;
+}

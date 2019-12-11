@@ -1,0 +1,45 @@
+body{
+	text-align: center;
+	text-align: uppercase;
+	background-color: #d6d6d6;
+}
+section{
+	width: 80%;
+	height: 200px;
+	margin:0 auto;
+	background-color: #fff;
+	padding: 100px;
+	position: relative;
+}
+div{
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px auto;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	top: 0;
+	left: 0px;
+}
+section div:first-child{
+	background-image: url("../img/1.jpg");
+	z-index: 50;
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+div:last-child{
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+p{
+	color: #fff;
+}
